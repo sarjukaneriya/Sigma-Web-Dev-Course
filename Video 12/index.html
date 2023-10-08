@@ -3,14 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Media player</title>
+    <!--link rel="stylesheet" href="style.css"-->
+    <div class="topnav">
+        <div class="logo"> Media player</div>
+        <a class="active" href="#home">Home</a>
+        <a href="#audio">Audio</a>
+        <a href="#video">Video</a>
+        </div>
 </head>
+
 <body>
-    <!-- You are given 12 files; 6 audio and 6 video.
-    Design a website using HTML only which shows these 12 files.
-    1.mp3, 2.mp3 .... 6.mp3
-    1.mp4, 2.mp4 .... 6.mp4 -->
+    <div id="home" class="homesection">
+ <div id="audio" class="audioplayer">
 
+    <h2>Audio player</h2>
 
+    <div><audio src="1.mp3.mp3" controls></audio></div>
+   <div> <audio src="2.mp3.mp3" controls></audio></div>
+   <div> <audio src="3.mp3.mp3" controls></audio></div>
+   <div> <audio src="4.mp3.mp3" controls></audio></div>
+   <div> <audio src="5.mp3.mp3" controls></audio></div>
+   <div> <audio src="6.mp3.mp3" controls></audio></div>
+   
+    </div>
+    <div id="video"class="videoplayer">
+        <h2>video player</h2>
+        <center>
+        <div><video src="1.mp4.mp4" width="300" controls></video></div>
+        <div><video src="2.mp4.mp4" width="300" controls></video></div>
+        <div><video src="3.mp4.mp4" width="300" controls></video></div>
+        <div><video src="1.mp4.mp4" width="300" controls></video></div>
+        <div><video src="2.mp4.mp4" width="300" controls></video></div>
+    </center>
+    </div>
+    </div>
 </body>
 </html>
